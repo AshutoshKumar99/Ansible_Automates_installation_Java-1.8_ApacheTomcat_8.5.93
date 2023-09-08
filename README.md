@@ -31,6 +31,8 @@ Above command will execute the playbook on the specified target hosts.
 
 Once the playbook run is completed successfully, you can access the Tomcat server's default page by opening your web browser and entering the following URL: http://Public_IPv4_address:8080
 
+Congratulations, you have successfully configured Java and Tomcat on the target host !!
+
 Make sure that port 8080 is open in the security group of the target machine to allow incoming web traffic.
 
 Note: This playbook is designed for Debian-based systems (e.g., Ubuntu). You may need to modify it to work on other Linux distributions.
