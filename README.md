@@ -9,7 +9,7 @@ This Ansible playbook automates the installation and setup of Java 1.8 and Apach
 
 ## Usage
 
-1. Clone this repository or download the playbook file to your Ansible control machine.
+1. Clone this repository or download the playbook file and inventory file to your Ansible control machine.
 
 2. Edit the Ansible inventory file to specify the target hosts where you want to set up Java and Tomcat. By default, the playbook uses `all` hosts, but you can modify it according to your needs.
 
@@ -22,3 +22,7 @@ This Ansible playbook automates the installation and setup of Java 1.8 and Apach
 
    ```bash
    ansible-playbook -i inventory setupTomcat_withVars.yml
+
+5. Once playbook run is completed, open your broweser and hit Public IPv4 address:8080 to access tomcat default page
+
+6. Make sure port 8080 is open in security group of target machine.
