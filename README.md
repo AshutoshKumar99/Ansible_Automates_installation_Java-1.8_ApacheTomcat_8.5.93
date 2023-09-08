@@ -21,4 +21,4 @@ This Ansible playbook automates the installation and setup of Java 1.8 and Apach
 4. Run the playbook using the following command:
 
    ```bash
-   ansible-playbook setup-java-tomcat.yml
+   ansible-playbook -i inventory setupTomcat_withVars.yml
